@@ -1,2 +1,4 @@
-# Autotest
-My portfolio. Automation with Java, Cucumber and WebDriver 
+# java-webdriver-cucumber
+
+Base framework for Java Webdriver automation with Cucumber
+

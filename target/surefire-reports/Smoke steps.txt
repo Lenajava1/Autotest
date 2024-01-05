@@ -1,0 +1,1300 @@
+-------------------------------------------------------------------------------
+Test set: Smoke steps
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 18, Skipped: 0, Time elapsed: 55.768 s <<< FAILURE! - in Smoke steps
+Smoke steps.Predefined steps for Google  Time elapsed: 6.283 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://google.com"' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title as {string}")
+public void i_should_see_page_title_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title as {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element using JavaScript with xpath {string}")
+public void i_click_on_element_using_java_script_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element using JavaScript with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for element with xpath {string} to be present")
+public void i_wait_for_element_with_xpath_to_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for element with xpath {string} to be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for Yahoo  Time elapsed: 2.857 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://www.yahoo.com"' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title as {string}")
+public void i_should_see_page_title_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title as {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for element with xpath {string} to be present")
+public void i_wait_for_element_with_xpath_to_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for element with xpath {string} to be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for Gibiru  Time elapsed: 2.964 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://gibiru.com"' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title contains {string}")
+public void i_should_see_page_title_contains(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title contains {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for element with xpath {string} to be present")
+public void i_wait_for_element_with_xpath_to_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for element with xpath {string} to be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for DuckDuckGo  Time elapsed: 2.921 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://duckduckgo.com"' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title contains {string}")
+public void i_should_see_page_title_contains(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title contains {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for element with xpath {string} to be present")
+public void i_wait_for_element_with_xpath_to_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for element with xpath {string} to be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for Swisscows  Time elapsed: 3.056 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://swisscows.com/en"' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title contains {string}")
+public void i_should_see_page_title_contains(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title contains {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for element with xpath {string} to be present")
+public void i_wait_for_element_with_xpath_to_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for element with xpath {string} to be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for Search Encrypt  Time elapsed: 2.918 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://www.searchencrypt.com/home"' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title contains {string}")
+public void i_should_see_page_title_contains(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title contains {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for element with xpath {string} to be present")
+public void i_wait_for_element_with_xpath_to_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for element with xpath {string} to be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for Start Page  Time elapsed: 3.141 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://www.startpage.com"' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title contains {string}")
+public void i_should_see_page_title_contains(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title contains {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for element with xpath {string} to be present")
+public void i_wait_for_element_with_xpath_to_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for element with xpath {string} to be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for Yandex  Time elapsed: 2.757 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://yandex.com"' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title contains {string}")
+public void i_should_see_page_title_contains(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title contains {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element using JavaScript with xpath {string}")
+public void i_click_on_element_using_java_script_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element using JavaScript with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for Boardreader  Time elapsed: 2.742 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://boardreader.com"' and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title contains {string}")
+public void i_should_see_page_title_contains(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title contains {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for element with xpath {string} to be present")
+public void i_wait_for_element_with_xpath_to_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for element with xpath {string} to be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Predefined steps for Ecosia  Time elapsed: 2.664 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://www.ecosia.org"' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I should see page title contains {string}")
+public void i_should_see_page_title_contains(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I should see page title contains {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Validate responsive UI  Time elapsed: 2.965 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://skryabin.com/market/quote.html"' and 15 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I resize window to {int} and {int}")
+public void i_resize_window_to_and(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I resize window to {int} and {int}", (Integer int1, Integer int2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be displayed")
+public void element_with_xpath_should_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should not be displayed")
+public void element_with_xpath_should_not_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should not be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Fill out and validate “Username” field  Time elapsed: 2.758 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://skryabin.com/market/quote.html"' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should have text as {string}")
+public void element_with_xpath_should_have_text_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should have text as {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should not be displayed")
+public void element_with_xpath_should_not_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should not be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Validate “Email” field behavior  Time elapsed: 3.092 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://skryabin.com/market/quote.html"' and 19 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should have text as {string}")
+public void element_with_xpath_should_have_text_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should have text as {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I clear element with xpath {string}")
+public void i_clear_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I clear element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should not be displayed")
+public void element_with_xpath_should_not_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should not be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Fill out and validate “Password” set of fields  Time elapsed: 3.008 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://skryabin.com/market/quote.html"' and 19 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be disabled")
+public void element_with_xpath_should_be_disabled(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be disabled", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should have text as {string}")
+public void element_with_xpath_should_have_text_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should have text as {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be enabled")
+public void element_with_xpath_should_be_enabled(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be enabled", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I clear element with xpath {string}")
+public void i_clear_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I clear element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should not be displayed")
+public void element_with_xpath_should_not_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should not be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Validate “Name” field behavior  Time elapsed: 2.979 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://skryabin.com/market/quote.html"' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be displayed")
+public void element_with_xpath_should_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should not be displayed")
+public void element_with_xpath_should_not_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should not be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should have attribute {string} as {string}")
+public void element_with_xpath_should_have_attribute_as(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should have attribute {string} as {string}", (String string, String string2, String string3) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Validate that Accepting Privacy Policy is required to  Time elapsed: 2.872 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://skryabin.com/market/quote.html"' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should contain text {string}")
+public void element_with_xpath_should_contain_text(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should contain text {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be selected")
+public void element_with_xpath_should_be_selected(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be selected", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should not be displayed")
+public void element_with_xpath_should_not_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should not be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Try entering the following non-required fields in the order:  Time elapsed: 3.017 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://skryabin.com/market/quote.html"' and 16 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should have attribute {string} as {string}")
+public void element_with_xpath_should_have_attribute_as(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should have attribute {string} as {string}", (String string, String string2, String string3) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be displayed")
+public void element_with_xpath_should_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+
+Smoke steps.Submit the form and verify the data.  Time elapsed: 2.708 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open url "https://skryabin.com/market/quote.html"' and 39 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I open url {string}")
+public void i_open_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Given("I open url {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("I wait for {int} sec")
+public void i_wait_for_sec(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("I wait for {int} sec", (Integer int1) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I type {string} into element with xpath {string}")
+public void i_type_into_element_with_xpath(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I type {string} into element with xpath {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@When("I click on element with xpath {string}")
+public void i_click_on_element_with_xpath(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+When("I click on element with xpath {string}", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be displayed")
+public void element_with_xpath_should_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should have attribute {string} as {string}")
+public void element_with_xpath_should_have_attribute_as(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should have attribute {string} as {string}", (String string, String string2, String string3) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should be present")
+public void element_with_xpath_should_be_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should be present", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should not be displayed")
+public void element_with_xpath_should_not_be_displayed(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should not be displayed", (String string) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+@Then("element with xpath {string} should have text as {string}")
+public void element_with_xpath_should_have_text_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+Then("element with xpath {string} should have text as {string}", (String string, String string2) -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java8.PendingException();
+});
+
+

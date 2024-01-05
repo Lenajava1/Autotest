@@ -1,0 +1,20 @@
+{
+  user:
+    "username": jdoe,
+  "email": jdoe@example.com,
+  "password": welcome,
+  "confirmPassword": welcome,
+  "firstName": John,
+  "lastName": Snow
+}
+
+{
+  admin:
+  "username": jdoe,
+  "email": jdoe@example.com,
+  "password": welcome,
+  "confirmPassword": welcome,
+  "firstName": John,
+  "lastName": Snow
+
+}
